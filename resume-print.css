@@ -1,0 +1,68 @@
+body{
+	width: 210mm;
+}
+/*-- 顯圖 --*/
+#r_pic{
+    float: right;
+    margin: 0px 10px 10px 10px;
+	width: 220px;
+	height: 220px;
+}
+
+/*-- 基本資料 --*/
+#aboutDiv{
+    float: right;
+	width: 540px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#nameDiv{
+    font-size: 2.5em;
+    margin-bottom: 0px;
+}
+#nameDiv p{
+    margin-left: 20px;
+    display: inline-block;
+}
+#aboutDescDiv{
+    width: 420px; 
+    margin: auto;
+}
+#aboutDescDiv div{
+    display: inline-block;
+}
+.iconImg{
+}
+#characteristics{
+    width: 420px;
+}
+
+/*-- 個人敘述 --*/
+#descDiv{
+    clear: both;
+    width: 740px;
+    margin-bottom: 5px;
+}
+#quoteLeft, #quoteRight{
+    width: 50px;
+    height: 50px;
+}
+#quoteLeft{
+    top: -30px;
+    left: -15px;
+}
+#quoteRight{
+    bottom: -15px;
+    right: -15px;
+}
+
+/*----下方資料----*/
+.dataDiv{
+    float: left;
+}
+.left{
+    width: 40%;
+}
+.right{
+    width: 60%;
+}

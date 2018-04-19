@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    color: #233E62;
+}
+html, body{
+	margin: auto;
+	width: 100%;
+    font-family: Microsoft JhengHei;
+}
+
+/*-- 顯圖 --*/
+#r_pic{
+    margin: 50px auto 10px auto;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	background-size: 110%;
+	background-position: center;
+	background-image: url(images/pic.jpg);
+	background-repeat: no-repeat;
+    border: 3px solid #235597;
+}
+
+/*-- 基本資料 --*/
+#aboutDiv{
+	width: 100%;
+    margin-bottom: 30px;
+}
+#nameDiv{
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 2.0em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#aboutDescDiv div{
+    width: 200px;
+    line-height: 30px;
+    text-align: left;
+    margin: 0 auto 10px auto;
+}
+.iconImg{
+    width: 30px;
+    height: 30px;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+#characteristics{
+    width: 80%;
+    min-width: 200px;
+    margin: auto;
+    line-height: 1.5em;
+}
+
+/*-- 個人敘述 --*/
+#descDiv{
+    position: relative;
+    line-height: 1.5em;
+    text-indent: 2em;
+    width: 80%;
+    min-width: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#quoteLeft, #quoteRight{
+    z-index: -1;
+    width: 35px;
+    height: 35px;
+    background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#quoteLeft{
+    background-image: url(images/quote-left@64x64.png);
+    position: absolute;
+    top: -15px;
+    left: -10px;
+}
+#quoteRight{
+    background-image: url(images/quote-right@64x64.png);
+    position: absolute;
+    bottom: -15px;
+    right: -10px;
+}
+
+/*----下方資料----*/
+.dataDiv{
+    padding: 0 15px;
+    margin: 0 auto 15px auto;
+    width: 80%;
+    min-width: 300px;
+}
+.left{
+}
+.right{
+}
+
+.titleDiv{
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    color: #235597;
+    border-bottom: 2px solid #235597;
+}
+.contentDiv{
+    line-height: 26px;
+    width: 100%;
+}
+.contentDiv img{
+    margin: 5px;
+    width: 16px;
+    float: right;
+}
+.contentDiv .dateRight{
+    float: right;
+}
+.contentDiv .remark{
+    font-size: .8em;
+    color: gray;
+}
+.contentDiv li{
+    list-style: disc inside;
+    color: gray;
+}
+
+/*-- 特效--*/
+.bold{
+    font-weight: bold;
+}

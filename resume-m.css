@@ -1,0 +1,7 @@
+#aboutDescDiv{
+    width: 420px; 
+    margin: auto;
+}
+#aboutDescDiv div{
+    display: inline-block;
+}

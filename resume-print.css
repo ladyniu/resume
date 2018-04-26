@@ -58,6 +58,7 @@ body{
 
 /*----下方資料----*/
 .dataDiv{
+    padding: 0 15px;
     float: left;
 }
 .left{
